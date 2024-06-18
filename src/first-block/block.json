@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "bblock/bblock",
+  "title": "bblock",
+  "description": "",
+  "category": "bblock",
+  "icon": "align-full-width",
+  "style": [
+    "file:./bblock.css"
+  ],
+  "viewScriptModule": [
+    "file:./bblock.js"
+  ],
+  "keywords": [
+    "bblock"
+  ],
+  "acf": {
+    "mode": "auto",
+    "renderTemplate": "bblock.php"
+  },
+  "supports": {
+    "color": {
+      "background": true,
+      "text": false
+    },
+    "layout": true,
+    "align": [
+      "full",
+      "wide"
+    ]
+  }
+}

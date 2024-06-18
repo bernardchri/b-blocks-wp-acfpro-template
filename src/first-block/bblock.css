@@ -1,0 +1,13 @@
+/**
+ * Block Name: bblock
+ */
+
+.bblock{
+    /* background-color: darkgray; */
+    padding: 2rem;
+    /* padding: var(--wp--preset--spacing--10) var(--wp--preset--spacing--6); */
+    outline : 1px solid;
+}
+.bblock__wrapper{
+
+}
